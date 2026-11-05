@@ -1,0 +1,38 @@
+{
+  "grid": {
+    "n": [
+      100
+    ],
+    "kappa": [
+      10,
+      100,
+      1000,
+      10000,
+      100000,
+      1000000
+    ],
+    "seed": [
+      0,
+      1,
+      2
+    ],
+    "rhs": [
+      "random"
+    ],
+    "family": [
+      "spectral"
+    ],
+    "spectrum": [
+      "geometric"
+    ]
+  },
+  "methods": [
+    "hss",
+    "hsd",
+    "sss",
+    "ssd",
+    "sdd",
+    "direct32"
+  ],
+  "max_iterations": 40
+}

@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+# Optional independent reference verification:
+mpmath
+# PyTorch is optional; KEEP your existing compatible installation for the bridge.

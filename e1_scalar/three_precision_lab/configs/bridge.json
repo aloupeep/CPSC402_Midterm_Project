@@ -1,0 +1,26 @@
+{
+  "grid": {
+    "n": [
+      64,
+      128
+    ],
+    "kappa": [
+      100,
+      1000,
+      10000
+    ],
+    "seed": [
+      0,
+      1,
+      2
+    ]
+  },
+  "methods": [
+    "native32_w32_r32",
+    "native32_w32_r64",
+    "blocked32_w32_r64",
+    "mixed16inputs_w32_r64"
+  ],
+  "block_size": 16,
+  "max_iterations": 30
+}

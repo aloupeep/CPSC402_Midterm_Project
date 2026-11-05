@@ -1,0 +1,29 @@
+{
+  "grid": {
+    "n": [
+      32,
+      64
+    ],
+    "kappa": [
+      100,
+      1000,
+      10000
+    ],
+    "seed": [
+      0,
+      1,
+      2
+    ]
+  },
+  "methods": [
+    "hss",
+    "hsd",
+    "sss",
+    "ssd",
+    "hss_blas",
+    "hsd_blas",
+    "sss_blas",
+    "ssd_blas"
+  ],
+  "max_iterations": 30
+}

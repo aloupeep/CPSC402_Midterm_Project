@@ -1,0 +1,1 @@
+nvcc -O3 -std=c++17 -arch=sm_70 -DHAVE_MAGMA -I$MAGMA/include -o mpaudit ../src/mpaudit.cu -L$MAGMA/lib -lmagma -lcusolver -lcublas -lcublasLt -lcusparse -lcudart -lcrypto -L/home/linuxbrew/.linuxbrew/lib -lopenblas

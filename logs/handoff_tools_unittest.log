@@ -1,0 +1,23 @@
+test_coverage_mismatch (test_handoff_tools.ToolsTest.test_coverage_mismatch) ... ok
+test_duplicate_trial (test_handoff_tools.ToolsTest.test_duplicate_trial) ... ok
+test_example_disallowed (test_handoff_tools.ToolsTest.test_example_disallowed) ... ok
+test_false_backward_pass (test_handoff_tools.ToolsTest.test_false_backward_pass) ... ok
+test_forward_without_reference (test_handoff_tools.ToolsTest.test_forward_without_reference) ... ok
+test_frozen_config_mismatch (test_handoff_tools.ToolsTest.test_frozen_config_mismatch) ... ok
+test_invalid_memory (test_handoff_tools.ToolsTest.test_invalid_memory) ... ok
+test_memory_matrix_arithmetic (test_handoff_tools.ToolsTest.test_memory_matrix_arithmetic) ... ok
+test_missing_solution (test_handoff_tools.ToolsTest.test_missing_solution) ... ok
+test_nonstandard_json (test_handoff_tools.ToolsTest.test_nonstandard_json) ... ok
+test_package_integrity (test_handoff_tools.ToolsTest.test_package_integrity) ... ok
+test_package_refuses_inplace (test_handoff_tools.ToolsTest.test_package_refuses_inplace) ... ok
+test_package_refuses_overwrite (test_handoff_tools.ToolsTest.test_package_refuses_overwrite) ... ok
+test_regeneration_not_verified (test_handoff_tools.ToolsTest.test_regeneration_not_verified) ... ok
+test_safe_path (test_handoff_tools.ToolsTest.test_safe_path) ... ok
+test_timing_required (test_handoff_tools.ToolsTest.test_timing_required) ... ok
+test_valid_structure (test_handoff_tools.ToolsTest.test_valid_structure) ... ok
+test_wrong_rhs_count (test_handoff_tools.ToolsTest.test_wrong_rhs_count) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.143s
+
+OK

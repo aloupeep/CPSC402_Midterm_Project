@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "n": 8,
+      "kappa": 10,
+      "seed": 0
+    },
+    {
+      "n": 16,
+      "kappa": 1000,
+      "seed": 0
+    }
+  ],
+  "methods": [
+    "hss",
+    "hsd",
+    "sss",
+    "ssd",
+    "hdd",
+    "sdd",
+    "direct32",
+    "direct64",
+    "input16_ssd",
+    "half_factors_solve32",
+    "direct16",
+    "hsd_no_norm"
+  ],
+  "max_iterations": 30
+}

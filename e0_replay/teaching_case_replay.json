@@ -1,0 +1,377 @@
+{
+ "core/cb384647987dbe4e__direct16": {
+  "status": "direct",
+  "iterations": 0,
+  "replay": {
+   "eta_fp64": 0.000234300036387225,
+   "eta_mp60": 0.000234300036387225,
+   "omega_fp64": 0.0014171686191946221,
+   "forward_inf_vs_xref": 0.10772733896372633,
+   "forward_le_10u32": false,
+   "eta_le_10u32": false
+  },
+  "recorded_final": {
+   "iteration": 0,
+   "forward_error": 0.10772733896372629,
+   "normwise_backward_error": 0.000234300036387225,
+   "componentwise_backward_error": 0.0014171686191946221,
+   "relative_residual": 0.0014988509904818622,
+   "forward_error_over_u": 1807364.834899652,
+   "normwise_backward_error_over_u": 3930.9023192763334,
+   "componentwise_backward_error_over_u": 23776.14403264992,
+   "forward_le_10u": false,
+   "forward_le_100u": false,
+   "backward_le_10u": false
+  }
+ },
+ "core/cb384647987dbe4e__direct32": {
+  "status": "direct",
+  "iterations": 0,
+  "replay": {
+   "eta_fp64": 2.71289355482551e-08,
+   "eta_mp60": 2.7128935547559873e-08,
+   "omega_fp64": 1.626843914873718e-07,
+   "forward_inf_vs_xref": 1.0526955357046776e-05,
+   "forward_le_10u32": false,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 0,
+   "forward_error": 1.05269553570422e-05,
+   "normwise_backward_error": 2.7128935547559873e-08,
+   "componentwise_backward_error": 1.6268439150395315e-07,
+   "relative_residual": 1.7918887949994136e-07,
+   "forward_error_over_u": 176.6130038474541,
+   "normwise_backward_error_over_u": 0.45514801153149026,
+   "componentwise_backward_error_over_u": 2.729391176090387,
+   "forward_le_10u": false,
+   "forward_le_100u": false,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__direct64": {
+  "status": "direct",
+  "iterations": 0,
+  "replay": {
+   "eta_fp64": 5.561818510324348e-17,
+   "eta_mp60": 5.525687289772388e-17,
+   "omega_fp64": 4.561478272245756e-16,
+   "forward_inf_vs_xref": 3.3418507996267806e-14,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 0,
+   "forward_error": 3.3457929562404976e-14,
+   "normwise_backward_error": 5.524884559279224e-17,
+   "componentwise_backward_error": 4.3643017415702027e-16,
+   "relative_residual": 3.649237918656707e-16,
+   "forward_error_over_u": 301.3622382196707,
+   "normwise_backward_error_over_u": 0.4976373608486984,
+   "componentwise_backward_error_over_u": 3.9310135394135943,
+   "forward_le_10u": false,
+   "forward_le_100u": false,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__half_factors_solve32": {
+  "status": "unchanged_working_update",
+  "iterations": 9,
+  "replay": {
+   "eta_fp64": 1.762667270836888e-09,
+   "eta_mp60": 1.7626672757034789e-09,
+   "omega_fp64": 6.958020766302758e-09,
+   "forward_inf_vs_xref": 3.0260721029201893e-08,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 9,
+   "forward_error": 3.0260721049484554e-08,
+   "normwise_backward_error": 1.7626672757034789e-09,
+   "componentwise_backward_error": 6.958020770761438e-09,
+   "relative_residual": 1.1642582433079469e-08,
+   "forward_error_over_u": 0.507690653362949,
+   "normwise_backward_error_over_u": 0.029572649620608817,
+   "componentwise_backward_error_over_u": 0.11673621740355113,
+   "forward_le_10u": true,
+   "forward_le_100u": true,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__hdd": {
+  "status": "iteration_limit",
+  "iterations": 30,
+  "replay": {
+   "eta_fp64": 4.4494548082595673e-17,
+   "eta_mp60": 3.379135146814565e-17,
+   "omega_fp64": 1.288594233903569e-16,
+   "forward_inf_vs_xref": 2.5454284127998377e-14,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 30,
+   "forward_error": 2.5465836095638186e-14,
+   "normwise_backward_error": 3.3783702279509904e-17,
+   "componentwise_backward_error": 1.116461651069186e-16,
+   "relative_residual": 2.2314451291825325e-16,
+   "forward_error_over_u": 229.37585990198852,
+   "normwise_backward_error_over_u": 0.30429653799439316,
+   "componentwise_backward_error_over_u": 1.005619255145727,
+   "forward_le_10u": false,
+   "forward_le_100u": false,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__hsd": {
+  "status": "unchanged_working_update",
+  "iterations": 28,
+  "replay": {
+   "eta_fp64": 1.723927336930383e-09,
+   "eta_mp60": 1.7239273306733374e-09,
+   "omega_fp64": 6.137406937595558e-09,
+   "forward_inf_vs_xref": 3.0260721029201893e-08,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 28,
+   "forward_error": 3.0260721049484554e-08,
+   "normwise_backward_error": 1.7239273306733374e-09,
+   "componentwise_backward_error": 6.137406961672428e-09,
+   "relative_residual": 1.1386701468087715e-08,
+   "forward_error_over_u": 0.507690653362949,
+   "normwise_backward_error_over_u": 0.028922701195010007,
+   "componentwise_backward_error_over_u": 0.10296860227588205,
+   "forward_le_10u": true,
+   "forward_le_100u": true,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__hss": {
+  "status": "iteration_limit",
+  "iterations": 30,
+  "replay": {
+   "eta_fp64": 1.868132745039106e-08,
+   "eta_mp60": 1.868132747076986e-08,
+   "omega_fp64": 7.585490776898875e-08,
+   "forward_inf_vs_xref": 1.6534729675521832e-05,
+   "forward_le_10u32": false,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 30,
+   "forward_error": 1.653472967553386e-05,
+   "normwise_backward_error": 1.868132747076986e-08,
+   "componentwise_backward_error": 7.585490776542196e-08,
+   "relative_residual": 1.2339222474239247e-07,
+   "forward_error_over_u": 277.4067312680415,
+   "normwise_backward_error_over_u": 0.3134206661438396,
+   "componentwise_backward_error_over_u": 1.2726341722405616,
+   "forward_le_10u": false,
+   "forward_le_100u": false,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__input16_ssd": {
+  "status": "working_precision_cycle",
+  "iterations": 7,
+  "replay": {
+   "eta_fp64": 1.7589831779488592e-09,
+   "eta_mp60": 1.758983182120223e-09,
+   "omega_fp64": 6.984886044330568e-09,
+   "forward_inf_vs_xref": 3.0260721029201893e-08,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 7,
+   "forward_error": 3.0260721049484554e-08,
+   "normwise_backward_error": 1.758983182120223e-09,
+   "componentwise_backward_error": 6.984886068407438e-09,
+   "relative_residual": 1.161824864993987e-08,
+   "forward_error_over_u": 0.507690653362949,
+   "normwise_backward_error_over_u": 0.02951084078679832,
+   "componentwise_backward_error_over_u": 0.11718694230506237,
+   "forward_le_10u": true,
+   "forward_le_100u": true,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__sdd": {
+  "status": "iteration_limit",
+  "iterations": 30,
+  "replay": {
+   "eta_fp64": 2.224727404129765e-17,
+   "eta_mp60": 3.1339325983331474e-17,
+   "omega_fp64": 1.0886691320286704e-16,
+   "forward_inf_vs_xref": 1.8251346364784112e-14,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 30,
+   "forward_error": 1.8243797554247204e-14,
+   "normwise_backward_error": 3.1339543754464703e-17,
+   "componentwise_backward_error": 1.294500131627801e-16,
+   "relative_residual": 2.0700061728911916e-16,
+   "forward_error_over_u": 164.32551973426095,
+   "normwise_backward_error_over_u": 0.2822815151491372,
+   "componentwise_backward_error_over_u": 1.1659820620860044,
+   "forward_le_10u": false,
+   "forward_le_100u": false,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__ssd": {
+  "status": "unchanged_working_update",
+  "iterations": 3,
+  "replay": {
+   "eta_fp64": 1.4997211936027159e-09,
+   "eta_mp60": 1.499721205856097e-09,
+   "omega_fp64": 5.774320920983048e-09,
+   "forward_inf_vs_xref": 3.0260721029201893e-08,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 3,
+   "forward_error": 3.0260721049484554e-08,
+   "normwise_backward_error": 1.499721205856097e-09,
+   "componentwise_backward_error": 5.7743209450599184e-09,
+   "relative_residual": 9.905799016350621e-09,
+   "forward_error_over_u": 0.507690653362949,
+   "normwise_backward_error_over_u": 0.025161146610428203,
+   "componentwise_backward_error_over_u": 0.09687702974859438,
+   "forward_le_10u": true,
+   "forward_le_100u": true,
+   "backward_le_10u": true
+  }
+ },
+ "core/cb384647987dbe4e__sss": {
+  "status": "iteration_limit",
+  "iterations": 30,
+  "replay": {
+   "eta_fp64": 1.4362204110879058e-08,
+   "eta_mp60": 1.4362204114898337e-08,
+   "omega_fp64": 5.288965303311594e-08,
+   "forward_inf_vs_xref": 9.90032624293142e-06,
+   "forward_le_10u32": false,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 30,
+   "forward_error": 9.900326242923832e-06,
+   "normwise_backward_error": 1.4362204114898337e-08,
+   "componentwise_backward_error": 5.288965302386651e-08,
+   "relative_residual": 9.486379096449634e-08,
+   "forward_error_over_u": 166.0999118480016,
+   "normwise_backward_error_over_u": 0.24095780067173822,
+   "componentwise_backward_error_over_u": 0.8873411329464616,
+   "forward_le_10u": false,
+   "forward_le_100u": false,
+   "backward_le_10u": true
+  }
+ },
+ "cuda_bridge/cb384647987dbe4e__blocked32_w32_r64": {
+  "status": "unchanged_working_update",
+  "iterations": 2,
+  "replay": {
+   "eta_fp64": 1.4997211936027159e-09,
+   "eta_mp60": 1.499721205856097e-09,
+   "omega_fp64": 5.774320920983048e-09,
+   "forward_inf_vs_xref": 3.0260721029201893e-08,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 2,
+   "forward_error": 3.0260721049484554e-08,
+   "normwise_backward_error": 1.499721205856097e-09,
+   "componentwise_backward_error": 5.7743209450599184e-09,
+   "relative_residual": 9.905799016350621e-09,
+   "forward_error_over_u": 0.507690653362949,
+   "normwise_backward_error_over_u": 0.025161146610428203,
+   "componentwise_backward_error_over_u": 0.09687702974859438,
+   "forward_le_10u": true,
+   "forward_le_100u": true,
+   "backward_le_10u": true
+  }
+ },
+ "cuda_bridge/cb384647987dbe4e__mixed16inputs_w32_r64": {
+  "status": "unchanged_working_update",
+  "iterations": 6,
+  "replay": {
+   "eta_fp64": 1.512126362344613e-09,
+   "eta_mp60": 1.5121263857216309e-09,
+   "omega_fp64": 5.823657915694017e-09,
+   "forward_inf_vs_xref": 3.0260721029201893e-08,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 6,
+   "forward_error": 3.0260721049484554e-08,
+   "normwise_backward_error": 1.5121263857216309e-09,
+   "componentwise_backward_error": 5.823657921936169e-09,
+   "relative_residual": 9.987736391130564e-09,
+   "forward_error_over_u": 0.507690653362949,
+   "normwise_backward_error_over_u": 0.025369270992551117,
+   "componentwise_backward_error_over_u": 0.09770476686643424,
+   "forward_le_10u": true,
+   "forward_le_100u": true,
+   "backward_le_10u": true
+  }
+ },
+ "cuda_bridge/cb384647987dbe4e__native32_w32_r32": {
+  "status": "iteration_limit",
+  "iterations": 30,
+  "replay": {
+   "eta_fp64": 9.05777396368043e-09,
+   "eta_mp60": 9.057773969850562e-09,
+   "omega_fp64": 3.938726199803332e-08,
+   "forward_inf_vs_xref": 8.600001555951147e-06,
+   "forward_le_10u32": false,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 30,
+   "forward_error": 8.60000155595555e-06,
+   "normwise_backward_error": 9.057773969850564e-09,
+   "componentwise_backward_error": 3.9387261981616465e-08,
+   "relative_residual": 5.982754750297781e-08,
+   "forward_error_over_u": 144.28408370460235,
+   "normwise_backward_error_over_u": 0.1519642303713604,
+   "componentwise_backward_error_over_u": 0.6608086019141675,
+   "forward_le_10u": false,
+   "forward_le_100u": false,
+   "backward_le_10u": true
+  }
+ },
+ "cuda_bridge/cb384647987dbe4e__native32_w32_r64": {
+  "status": "unchanged_working_update",
+  "iterations": 3,
+  "replay": {
+   "eta_fp64": 1.4997211936027159e-09,
+   "eta_mp60": 1.499721205856097e-09,
+   "omega_fp64": 5.774320920983048e-09,
+   "forward_inf_vs_xref": 3.0260721029201893e-08,
+   "forward_le_10u32": true,
+   "eta_le_10u32": true
+  },
+  "recorded_final": {
+   "iteration": 3,
+   "forward_error": 3.0260721049484554e-08,
+   "normwise_backward_error": 1.499721205856097e-09,
+   "componentwise_backward_error": 5.7743209450599184e-09,
+   "relative_residual": 9.905799016350621e-09,
+   "forward_error_over_u": 0.507690653362949,
+   "normwise_backward_error_over_u": 0.025161146610428203,
+   "componentwise_backward_error_over_u": 0.09687702974859438,
+   "forward_le_10u": true,
+   "forward_le_100u": true,
+   "backward_le_10u": true
+  }
+ }
+}

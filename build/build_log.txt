@@ -1,0 +1,6 @@
+/home/worker/lab/campaign/src/mp_core.cuh(111): warning #177-D: variable "b" was declared but never referenced
+    void ensure(Ctx& ctx,int n_,int nrhs_,int nb_){ if(n==n_&&nrhs==nrhs_&&nb==nb_) return; n=n_; nrhs=nrhs_; nb=nb_; size_t a=0,b=0,h=0;
+                                                                                                                                 ^
+
+Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+

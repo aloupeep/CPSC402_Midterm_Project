@@ -1,0 +1,28 @@
+{
+  "grid": {
+    "n": [
+      32
+    ],
+    "kappa": [
+      100,
+      1000
+    ],
+    "seed": [
+      0,
+      1,
+      2
+    ],
+    "rhs_scale_pow2": [
+      -20,
+      0,
+      20
+    ]
+  },
+  "methods": [
+    "hsd",
+    "hsd_no_norm",
+    "hss",
+    "ssd"
+  ],
+  "max_iterations": 30
+}

@@ -1,0 +1,96 @@
+{
+ "acceptance_profiles": {
+  "target32": {
+   "tau_primary": 5.9604644775390625e-06,
+   "tau_strict": 5.960464477539062e-07,
+   "u": 5.960464477539063e-08
+  },
+  "target64": {
+   "tau_primary": 1.1102230246251565e-14,
+   "tau_strict": 1.1102230246251565e-15,
+   "u": 1.1102230246251565e-16
+  }
+ },
+ "attainable_accuracy_track_E2a": {
+  "declared": "2026-11-04T21:37:29+0000",
+  "note": "added after observing that the production 100u backward rule stops FP32-working methods at the initial solve (E2 records); it does not change any production method",
+  "rule": "backward tolerance deliberately unattainable; refinement runs until stagnation (eta_max fails to drop 10% for 3 steps), nonfinite, GMRES budget or max_outer=30; final iterate reported; first_attainment is an offline label only",
+  "tau_mult": 0.001
+ },
+ "confirmation_seeds": [
+  9300,
+  9301,
+  9302
+ ],
+ "development_seeds": [
+  9100,
+  9101
+ ],
+ "evaluation_seeds": [
+  9200,
+  9201,
+  9202
+ ],
+ "frozen_at": "2026-11-04T21:21:44+0000",
+ "gmres_budget": 480,
+ "gmres_cycles_per_correction": 4,
+ "gmres_m": 40,
+ "gmres_tol": 0.0001,
+ "max_outer": 30,
+ "memory_policy": "single process per method group at n>=32768 so that at most one n^2 FP64 factor buffer plus one FP32 factor buffer coexist with the stored matrix; admission requires free memory >= estimated need + 512 MiB",
+ "nb": 512,
+ "panel": "cusolver",
+ "primary_baseline_denominator": {
+  "rationale": "cuSOLVER Xgetrf64+Xgetrs was the fastest ordinary FP64 LU on development data (0.106 s vs MAGMA native 0.149 s, MAGMA hybrid 0.41 s at n=8192 seed 9100)",
+  "target32": "native_lu32",
+  "target64": "native_lu64"
+ },
+ "rationale": {
+  "gmres": "native FP32-factor GMRES-IR converged in 8 inner iterations for all m in {20,40,80} and tol in {1e-2,1e-4,1e-6} on kappa=1e6 n=4096 dev cases; hetero16 GMRES-IR failed for all settings; m=40,tol=1e-4 chosen as the middle of the grid, budget 480 global",
+  "nb": "development n=8192 seed 9100/9101: hetero16 factor 0.0823 s (512) vs 0.0846 (256) vs 0.0909 (128); custom32 0.0981/0.0985/0.0995",
+  "panel": "MAGMA magma_sgetrf_recpanel_native panel gave 0.080 s vs 0.0865 s for the hetero16 factorization at n=8192 (8%) but its dinfo semantics differ; not adopted; cuSOLVER Xgetrf tall-panel retained"
+ },
+ "repetitions": {
+  "deviation_note": "3 repetitions at n>=24576 and 2 host-mode repetitions are below the plan's 7/5 because of a 4-hour wall-clock limit; declared before any evaluation timing was viewed",
+  "host_mode_reps": "2 at n<=16384, 1 above",
+  "n_ge_24576": 3,
+  "n_le_16384": 5,
+  "n_le_8192": 7,
+  "warmup": 1
+ },
+ "seeds_by_size": {
+  "n_16384": [
+   9200,
+   9201
+  ],
+  "n_ge_12288_other": [
+   9200
+  ],
+  "n_le_8192": [
+   9200,
+   9201,
+   9202
+  ],
+  "note": "final E4 seed plan declared at 21:44 before any E4 record existed (earlier trimmed versions superseded; see FROZEN_CONFIG_HISTORY.md)"
+ },
+ "size_ladder": {
+  "note": "36864 FP64 = 10.1 GiB stored matrix; 49152 FP32 = 9.06 GiB; families geometric kappa=1e2 and clustered kappa=1e4 up to 24576 (and 32768 FP64), geometric only above; nrhs=8 at n<=8192 and n=16384 geometric seed 9200; core method group only at n>=32768 (plus IRS and MAGMA groups at 32768 geometric)",
+  "target32_fp32_inputs": [
+   8192,
+   16384,
+   32768,
+   49152
+  ],
+  "target64_fp64_inputs": [
+   8192,
+   12288,
+   16384,
+   24576,
+   32768,
+   36864
+  ]
+ },
+ "stopping_rule": "stop when eta_j<=tau and omega_j<=tau for all RHS (original stored system, FP64 evaluation each outer step); nonfinite -> stop; stagnation = eta_max fails to drop by 10% for 3 consecutive outer steps; max_outer=30; GMRES global inner budget 480",
+ "tau_mult": 100,
+ "tau_mult_secondary": 10
+}

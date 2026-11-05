@@ -1,0 +1,37 @@
+{
+  "grid": {
+    "n": [
+      32,
+      64,
+      128
+    ],
+    "kappa": [
+      10,
+      100,
+      1000,
+      3000,
+      10000,
+      100000,
+      1000000
+    ],
+    "seed": [
+      0,
+      1,
+      2
+    ]
+  },
+  "methods": [
+    "hss",
+    "hsd",
+    "sss",
+    "ssd",
+    "hdd",
+    "sdd",
+    "direct32",
+    "direct64",
+    "input16_ssd",
+    "half_factors_solve32",
+    "direct16"
+  ],
+  "max_iterations": 30
+}

@@ -1,0 +1,10 @@
+	libcusolverMg.so.11 (libc6,x86-64) => /usr/local/cuda/lib64/libcusolverMg.so.11
+	libcusolverMg.so (libc6,x86-64) => /usr/local/cuda/lib64/libcusolverMg.so
+	libcusolver.so.11 (libc6,x86-64) => /usr/local/cuda/lib64/libcusolver.so.11
+	libcusolver.so (libc6,x86-64) => /usr/local/cuda/lib64/libcusolver.so
+	libcudart.so.12 (libc6,x86-64) => /usr/local/cuda/lib64/libcudart.so.12
+	libcudart.so (libc6,x86-64) => /usr/local/cuda/lib64/libcudart.so
+	libcublasLt.so.12 (libc6,x86-64) => /usr/local/cuda/lib64/libcublasLt.so.12
+	libcublasLt.so (libc6,x86-64) => /usr/local/cuda/lib64/libcublasLt.so
+	libcublas.so.12 (libc6,x86-64) => /usr/local/cuda/lib64/libcublas.so.12
+	libcublas.so (libc6,x86-64) => /usr/local/cuda/lib64/libcublas.so
